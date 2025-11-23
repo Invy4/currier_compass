@@ -1,0 +1,117 @@
+.a{
+    background-image:url("2148404490.jpg");
+    background-size: cover;
+    height:150px;
+    width:100vw;
+    
+    
+
+}
+
+
+.overflow{
+    height: 787px;
+    overflow: auto;
+}
+
+.card1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius:3vh;
+    color: #50503e;
+    width:40vw;
+    background-color:#d9d9d457;
+    box-shadow:7px 10px 11px rgba(37, 37, 37, 0.1);
+
+}
+
+.card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius:3vh;
+    color: #50503e;
+    width:40vw;
+    background-color:#d9d9d457;
+    box-shadow:7px 10px 11px rgba(37, 37, 37, 0.1);
+
+}
+
+.card2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius:3vh;
+    color: #50503e;
+    width:40vw;
+    background-color:#d9d9d457;
+    box-shadow:7px 10px 11px rgba(37, 37, 37, 0.1);
+
+}
+
+.card3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius:3vh;
+    color: #50503e;
+    width:40vw;
+    background-color:#d9d9d457;
+    box-shadow:7px 10px 11px rgba(37, 37, 37, 0.1);
+
+}
+
+.content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius:3vh;
+    color: #50503e;
+    width:60vw;
+    background-color:#d9d9d457;
+    box-shadow:7px 10px 11px rgba(37, 37, 37, 0.1);
+
+}
+
+.flex{
+    display: flex;
+    justify-content: start;
+    margin-left:70px;
+}
+
+.card:hover{
+    animation: zoom;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    
+}
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+@keyframes zoom {
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale:1.2;
+    }
+
+    100%{
+        scale: 1;
+    }
+
+}
+
+.lin{
+    color:#d9d9d457;
+}
+
+.align{
+    display: flex;
+    justify-content:start ;
+}
+
+.size{
+    margin-top:30vh; margin-left:70px;
+}
+
